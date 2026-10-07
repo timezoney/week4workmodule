@@ -17,11 +17,11 @@ function calculateWithCallback(num1, num2, callback) {
   return sum;
 }
 
-// calculate(5, 5);
+calculate(5, 5);
 // // Send logger as callback
-//calculateWithCallback(5, 5, logger);
+calculateWithCallback(5, 5, logger);
 // // Send empty function as callback to not log
-// calculateWithCallback(5, 5, () => {});
+ //calculateWithCallback(5, 5, () => {});
 
 // Callback Hell
 // firstFunction(args, function() {
@@ -36,17 +36,17 @@ function calculateWithCallback(num1, num2, callback) {
 //     });
 //   });
 
-// Promise Structure
-// const myPromise = new Promise((resolve, reject) => {
-//     resolve("Success")
-//     // reject("Failed")
-// })
+ //Promise Structure
+//const myPromise = new Promise((resolve, reject) => {
+//resolve("Success")
+  //   // reject("Failed")
+ //})
 // // Promise resolve callback called
-// .then(value => {
-//     console.log(value)
-// })
-// // Promise reject callback called
-// .catch(err => {
+ //.then(value => {
+   //  console.log(value)
+//})
+ // Promise reject callback called
+ //.catch(err => {
 //     console.log(err)
 // })
 
